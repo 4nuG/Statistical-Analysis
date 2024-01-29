@@ -1,4 +1,8 @@
 # Objective
+- Determine 'Does there exist a relationship between “Height” and “Mother’s Height”?
+- Determine 'Does major appear to be independent of gender?'
+- Determine 'Do students spend more hours per week on social media or studying.'
+- Determine 'Does gender affect the amount of time spent on social media.'
 - Conduct Exploratory Data Analysis (EDA) on student survey data and visualize both quantitative and categorical data using JMP software. 
 
 # Exploratory Data Analysis
@@ -7,8 +11,8 @@ The student dataset contains hours spent studying and other attributes of 68 sta
 
 The features are described as follows:
 ### Ordinal: 
-Statistics: how important they think statistics is from 0 - 10 with 10 being the most important. 
-College Year: credit posiiton from Freshman to Seinor.
+- Statistics: how important they think statistics is from 0 - 10 with 10 being the most important.
+- College Year: credit posiiton from Freshman to Seinor.
 
 ### Nominal:
 - Timestamp: YYYY/MM/DD HH:MM:SS AM/PM EST
@@ -89,3 +93,13 @@ From the analysis, it's evident that the mean and median times spent studying su
 
 ### Exploring Bivariate Data – Comparative Boxplots
 ![image](https://github.com/4nuG/Statistical-Analysis/blob/main/Exploratory_Data_Analysis_of_class/Screenshot%202024-01-29%20at%203.55.46%20PM.png)
+
+- The graphs for 'Social Media Hrs per Wk' for both genders are skewed right, as evidenced by the longer right whiskers in the box plots.
+- The female distribution has no outliers. The lower outlier for females is calculated as 9.625 − ( 1.5 × ( 28 − 9.625 ) ) = − 17.938, and the upper outlier is 28 + ( 1.5 × ( 28 − 9.625 ) ) = 55.5625.
+- The male distribution has 2 outliers. The lower outlier for males is 5.688 − ( 1.5 × ( 15.75 − 5.688 ) ) = − 9.405, and the upper outlier is 15.75 + ( 1.5 × ( 15.75 − 5.688 ) ) = 30.843.
+- Their mean is between the 2nd (median) and 3rd quartiles.
+  
+- Females have a higher mean than males and also a higher standard deviation, indicating that their variability is less stable than that of males.
+- Males have more experimental units than females, which could significantly impact the mean and median, potentially making them more accurate and explaining the smaller standard deviation.
+
+Conclusion: Since this is an observational study, cause and effect cannot be derived. Therefore, we cannot logically imply that gender influences the time spent studying. Also, since there are fewer male students, I do not believe this study can generalize gender’s effect on time spent studying.
