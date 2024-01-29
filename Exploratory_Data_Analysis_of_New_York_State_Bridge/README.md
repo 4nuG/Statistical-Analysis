@@ -1,3 +1,5 @@
+Data is in 'Bridge data.jmp' and can be opened using JMP.
+
 ## Introduction
 - In 2007, the I-35 Bridge in Minneapolis, Minnesota collapsed during rush hour traffic.
 - In response, the governor of New York established a task force to assess the safety of similar structured bridges in the state.
