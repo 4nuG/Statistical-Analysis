@@ -32,7 +32,8 @@ College Year: credit posiiton from Freshman to Seinor.
 ![image](https://github.com/4nuG/Statistical-Analysis/blob/main/Exploratory_Data_Analysis_of_class/Screenshot%202024-01-28%20at%2012.51.24%20PM.png)
 
 ## Data Cleaning
-Histogram, outlier box plot and numeric summaries of the quantative data. 
+### Histogram, outlier box plot and numeric summaries of the quantative data
+
 ![image](https://github.com/4nuG/Statistical-Analysis/blob/main/Exploratory_Data_Analysis_of_class/Screenshot%202024-01-28%20at%2011.23.48%20AM.png)
 The points were considered outliers if they were located outside the whisker and more than 1.5 times the Interquartile Range (IQR) away from the box. 'Social Media', and 'How many hours do you spend studying' both have 1 outlier. The distribution for height is symmetric, while the distributions for social media and the number of hours spent studying per week are both right-skewed. Symmetry is visually evident in the height distribution, and the box-and-whisker plot confirms its symmetry. For social media and hours spent studying, their graphs show right-skewed distributions, with longer right whiskers in the box plot.
 
@@ -54,5 +55,7 @@ The points were considered outliers if they were located outside the whisker and
 ![image](https://github.com/4nuG/Statistical-Analysis/blob/main/Exploratory_Data_Analysis_of_class/Screenshot%202024-01-28%20at%209.42.09%20PM.png)
 Major does not appear to be independent of gender. When variables are independent, all proportions are the same. However, in this case, the proportions of males and females in different Major are not the same. The difference in proportions suggests a dependence between gender and Major. Therefore, gender does influence the choice of Major.
 
+Created a new variable “Social Media Hrs per Wk” because "Social Media” and “Studying Hrs per Wk” are in different units.
 
+### Histogram, outlier box plot and numeric summaries of the numeric data
 
