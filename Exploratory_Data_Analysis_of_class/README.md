@@ -1,3 +1,4 @@
+Dataset is 'Class.jmp' and can be viewed using JMP.
 # Objective
 - Determine 'Does there exist a relationship between “Height” and “Mother’s Height”?
 - Determine 'Does major appear to be independent of gender?'
