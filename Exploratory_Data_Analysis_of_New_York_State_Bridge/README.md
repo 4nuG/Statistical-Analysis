@@ -37,6 +37,7 @@ The task force's findings in the August report play a crucial role in determinin
 - The boxplot reveals an outlier as evidenced by a point outside the right whisker.
   
 Lower Outlier = 3.9575 – 1.5(5.0025-3.9575) = 2.39 avg rating
+
 Upper outlier = 5.0025 + 1.5(5.0025-3.9575) = 6.57 avg rating
 
 - Calculation of outliers using Tukey's method indicates a lower outlier threshold of 2.39 average rating and an upper outlier threshold of 6.57 average rating.
