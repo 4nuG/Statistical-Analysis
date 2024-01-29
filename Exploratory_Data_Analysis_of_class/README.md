@@ -4,7 +4,7 @@ Dataset is 'Class.jmp' and can be viewed using JMP.
 - Determine 'Does major appear to be independent of gender?'
 - Determine 'Do students spend more hours per week on social media or studying.'
 - Determine 'Does gender affect the amount of time spent on social media.'
-- Conduct Exploratory Data Analysis (EDA) on student survey data and visualize both quantitative and categorical data using JMP software. 
+- Conduct Exploratory Data Analysis (EDA) on student survey data and visualize both quantitative and categorical data using JMP software.
 
 # Exploratory Data Analysis
 ## Student data set 
@@ -104,3 +104,19 @@ From the analysis, it's evident that the mean and median times spent studying su
 - Males have more experimental units than females, which could significantly impact the mean and median, potentially making them more accurate and explaining the smaller standard deviation.
 
 Conclusion: Since this is an observational study, cause and effect cannot be derived. Therefore, we cannot logically imply that gender influences the time spent studying. Also, since there are fewer male students, I do not believe this study can generalize gender’s effect on time spent studying.
+
+### Detemrmine if 'Father's Height' and 'Social Media' are normal 
+![image](https://github.com/4nuG/Statistical-Analysis/blob/main/Exploratory_Data_Analysis_of_class/Screenshot%202024-01-29%20at%205.37.58%20PM.png)
+- If the data adhered to an approximately normal distribution, the histogram and boxplot should exhibit a bell-shaped, symmetric pattern. However, in this case, they are left-skewed, even though the mean and median are closely aligned. The elongated left whisker further reinforces this skewness.
+
+![image](https://github.com/4nuG/Statistical-Analysis/blob/main/Exploratory_Data_Analysis_of_class/Screenshot%202024-01-29%20at%205.38.35%20PM.png)
+
+- Based on the normal quantile plot, it appears that the data comes from an approximately normal distribution. The mean is 70.44, and the median is 70.5, indicating a very close alignment. Additionally, the quantile plot exhibits symmetry, suggesting a normal distribution. There is no skewness, and the data shows a good fit to a straight line, indicating that the distribution of height values is close to normal.
+
+![image](https://github.com/4nuG/Statistical-Analysis/blob/main/Exploratory_Data_Analysis_of_class/Screenshot%202024-01-29%20at%205.46.33%20PM.png)
+- If the data followed an approximately normal distribution, the histogram/boxplot should exhibit a bell-shaped, symmetric pattern. However, in this case, the graphs are right-skewed with an outlier, and the mean and median are far apart.
+
+![image](https://github.com/4nuG/Statistical-Analysis/blob/main/Exploratory_Data_Analysis_of_class/Screenshot%202024-01-29%20at%205.46.46%20PM.png)
+- The mean is 112, and the median is 90, indicating a significant difference. The curved pattern observed suggests that the data is not normally distributed. Instead, it exhibits a right skew, implying that a few individuals are taller.
+
+
