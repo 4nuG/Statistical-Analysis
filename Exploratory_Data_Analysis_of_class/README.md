@@ -59,3 +59,33 @@ Created a new variable “Social Media Hrs per Wk” because "Social Media” an
 
 ### Histogram, outlier box plot and numeric summaries of the numeric data
 
+![image](https://github.com/4nuG/Statistical-Analysis/blob/main/Exploratory_Data_Analysis_of_class/Screenshot%202024-01-29%20at%201.49.52%20PM.png)
+Uniform Scalling is applied to both "Social Media Hrs per Wk” and "Studying Hrs per Wk” to compare the variables using the same scale. 
+- Based on the histograms and box plots, a brief comparison of the distributions of "Social Media Hrs per Wk" and "Studying Hrs per Wk" reveals that both variables exhibit right-skewed distributions with one outlier each. The mean for both variables falls between the 2nd (median) and 3rd quartile. "Studying Hrs per Wk" has a higher mean than "Social Media Hrs per Wk," and it also displays a higher standard deviation, indicating greater variability.
+- "Social Media Hrs per Wk" has one more experimental unit than "Studying Hrs per Wk," potentially impacting its mean and median.
+
+|                       | Social Media Hrs per Wk | Studying Hrs per Wk |
+|-----------------------|-------------------------|---------------------|
+| Mean (X̄)              | 13.108 hrs              | 15.075 hrs          |
+| Standard Deviation (s)| 9.549 hrs               | 15.695 hrs          |
+| Minimum               | 0 hrs                   | 1 hrs               |
+| Q1 (First Quartile)   | 7 hrs                   | 6 hrs               |
+| Q2 (Second Quartile)  | 10.5 hrs                | 12 hrs              |
+| Q3 (Third Quartile)   | 18.375 hrs              | 20 hrs              |
+| Maximum               | 42 hrs                  | 120 hrs             |
+| IQR (Interquartile Range)| 11.375 hrs           | 14 hrs              |
+
+Social Media Hrs per Wk:
+- Min Usual Value =  13.108 − 2 ( 9.549 ) = − 5.99 
+- Max Usual Value =  13.108 + 2 ( 9.549 ) = 32.206 
+- The average time spent on social media per week is 13.108 hrs, and so it is not unusual to observe times between 0-32.206 hrs.
+
+Studying Hrs per Wk:
+- Min Usual Value = 15.075 − 2 ( 15.695 ) = − 16.315
+- Max Usual Value = 15.075 + 2 ( 15.695 ) = 46.465
+- The average time spent studying per week is 15.075 hrs, and so it is not unusual to see times between 0-46.465 hrs.
+
+From the analysis, it's evident that the mean and median times spent studying surpass those for social media. This suggests a general trend of dedicating more time to studying than engaging with social media. However, it's important to note that the higher standard deviation in studying hours indicates increased variability and less stability compared to the more consistent hours spent on social media.
+
+### Exploring Bivariate Data – Comparative Boxplots
+![image](https://github.com/4nuG/Statistical-Analysis/blob/main/Exploratory_Data_Analysis_of_class/Screenshot%202024-01-29%20at%203.55.46%20PM.png)
