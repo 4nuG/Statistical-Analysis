@@ -54,3 +54,8 @@ The Mean is 4.967 and the Standard deviation is 2.906
 
 ## Conclusion 
 Comparing the theoretical distribution mean (4.5) with the frequency distribution mean (4.967), it appears that the values were obtained from actual measurements. The similarity between these mean values suggests an even spread of ending digits. However, the observed distribution is not perfectly even, possibly due to the small sample size (only 30 data points). With a larger sample size, the theoretical standard deviation would likely align more closely with the frequency standard deviation, as more data would contribute to making the variance from the mean more similar to the theoretical standard deviation.
+
+## Future Uses
+- Detecting Systematic Biases or Irregularities:
+- Assessing Data Reliability and Accuracy
+- Quality Control in Data Collection
