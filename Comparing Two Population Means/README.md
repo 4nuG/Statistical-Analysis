@@ -1,3 +1,22 @@
+# Table of Contents
+- [Uses](#uses)
+- [Objective](#objective)
+- [Dataset](#dataset)
+- [Parameter of Interest](#parameter-of-interest)
+- [Point Estimate for the Parameter of Interest](#point-estimate-for-the-parameter-of-interest)
+- [Assumptions/Requirements](#assumptionsrequirements)
+- [Hypothesis](#hypothesis)
+- [Test Statistic](#test-statistic)
+- [P-value](#p-value)
+- [Conclusion](#conclusion)
+- [5% Confidence Interval for the Mean Difference](#5-confidence-interval-for-the-mean-difference)
+
+# Uses
+- Hypothesis testing to reach robust conclusions
+- Cost effency - it might be more cost-effective for a business to choose the plastic type that is more economical in terms of production or raw material costs.
+- Compliance and Standards
+- Risk Mitigation
+  
 # Objective
 - Determine, at a 5% significance level, whether there is a significant difference in the deflection temperature under load between two types of plastic pipes (type 1 and type 2).
 
@@ -37,7 +56,7 @@ samples = 4.33334
 ![image](https://github.com/4nuG/Statistical-Analysis/blob/main/Comparing%20Two%20Population%20Means/Screenshot%202024-01-31%20at%202.44.35%20PM.png)
 
 # Asumptions/Requirements
-- We don’t know population std1 and population std2, so we will find simple std1 and simple
+- We don’t know population std1 and population std2, so we will find sample std1 and sample
 std2.
 
 | Type   | std                  |
