@@ -13,7 +13,7 @@
   
 ## Method
 - one-sample hypothesis testing
-- confidence interval construction
+- confidence interval 
 
 ## Parameter of Interest
 - The parameter of interest is the mean/average diameter of leads.
@@ -44,23 +44,16 @@ Test statistic = -1.4974
 P-value: prob > |z| = 0.1343
 
 - Fail to reject the null hypothesis because the p-value (.1343) is greater than the significance level (.05).
-
-
-- Calculated test statistic:
-- Calculatedp-value for the t:
-
-## Conclusion of Hypothesis Test with Known Standard Deviation 
-There is not sufficient evidence at a 5% significance level to support the claim that the avg lead
+- There is not sufficient evidence at a 5% significance level to support the claim that the avg lead
 diameter is .5 mm.
 
-##  95% confidence interval with Standard Deviation
+##  95% confidence interval with Known Standard Deviation
 - Using 0.95 for the confidence level and 0.02 for the population standard deviation.
 ![image](https://github.com/4nuG/Statistical-Analysis/blob/main/One%20Sample%20Hypothesis%20Testing/Screenshot%202024-01-30%20at%203.58.59%20PM.png)
 - The lower mean confidence interval is .484538 and the upper is .502069. Since the null hypothesis value (.5)
 falls in the interval, we do not reject. This is similar to number the hypothesis test.
 
-Assuming population standard deviation is unknown:
-
+# Without Known Standard Deviation
 ## Point Estimate of the standard deviation
 ![image](https://github.com/4nuG/Statistical-Analysis/blob/main/One%20Sample%20Hypothesis%20Testing/Screenshot%202024-01-30%20at%204.05.18%20PM.png)
 .01496
@@ -79,14 +72,18 @@ P-value: Prob > |t| = 0.0598
 
 - Fail to reject the null hypothesis because the p-value (0.0598) is greater than the significance level
 (.05).
-
-## Conclusion of 95% confidence interval with Standard Deviation
-There is not sufficient evidence at a 5% significance level to support the claim that the mean
+- There is not sufficient evidence at a 5% significance level to support the claim that the mean
 diameter of the led is .5mm
 
-##  95% confidence interval without Standard Deviation 
+##  95% confidence interval without known Standard Deviation 
+![image](https://github.com/4nuG/Statistical-Analysis/blob/main/One%20Sample%20Hypothesis%20Testing/Screenshot%202024-01-30%20at%204.16.58%20PM.png)
 
-8. 2 / 3 pts Explain why they are different. 
+- The lower mean confidence interval is .486302, and the upper is .500305. Comparing this interval to the one previously obtained (known standard deviation), the interval here is slightly wider. This widening is due to the uncertainty introduced by estimating the standard deviation from the sample, as opposed to having a known population standard deviation.
 
-Part 3. 3 / 5 pts Their distributions and p-value are also different. This is due to estimating the population standard deviation resulting in different distribution for test statistic.
+- Since the null hypothesis value (.5) falls within the interval, we do not reject it. The difference in interval width from previous reflects the impact of estimating the standard deviation from the sample, highlighting the inherent variability introduced by this estimation process.
 
+## Hypothesis test with and without known Standard Deviation
+- Part one had a known standard deviation, part two had an unknown standard deviation.
+- The decisions and conclusions did not change between parts 1 and 2.
+- In part 1, a two-tailed z test was employed, yielding a z test statistic of -1.4974. In contrast, part 2 utilized a two-tailed t test, producing a t test statistic of -2.0019. One notable difference arises from the estimation of the population standard deviation in part 2, leading to a different distribution for the test statistic. This divergence in distributions contributes to variations in p-values.
+- Furthermore, the distributions and p-values are dissimilar between the two parts due to the inherent variability introduced by estimating the population standard deviation in part 2. The t test statistic in part 2, being on the edge of rejection, suggests a closer proximity to the 0.05 significance level, emphasizing the impact of the estimation process on the outcome. Despite these differences, the decisions and conclusions remained consistent in both parts.
