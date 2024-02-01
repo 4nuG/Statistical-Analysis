@@ -1,4 +1,5 @@
 # Table of Contents
+- [Uses](#Uses)
 - [Objective](#objective)
 - [Dataset](#dataset)
   - [Zillow Agent Listings](#zillow-agent-listings)
@@ -16,6 +17,9 @@
   - [Average Price in New York State](#average-price-in-new-york-state)
   - [Average Price in the United States](#average-price-in-the-united-states)
 
+# Uses
+- Real Estate Market Analysis
+  
 # Objective 
 Estimate the mean house price of houses in New York, NY. 
 
