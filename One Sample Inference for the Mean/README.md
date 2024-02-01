@@ -1,9 +1,5 @@
 # Objective 
 Estimate the mean house price of houses in New York, NY. 
-- State clearly how you are defining the type of house: single family or condominiums.
-- Go to a real estate website such as Realtor.com or Zillow.com.
-- Obtain at least 20 data values.
-- If you search results in a large number of houses, take a random sample.
 
 # Dataset
 - On 04/05/2021 at 10:39 am there were 3,795 Agent listed “for sale” single-family houses on Zillow at New York, NY (by the end of the day there were 5 more!).
