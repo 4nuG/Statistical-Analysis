@@ -1,17 +1,16 @@
 # Exploring the Relationship between Coffee Consumption and Physical Activity
 
-Table of Contents
-1. [Uses](#uses)
-2. [Objective](#objective)
-3. [Methods](#methods)
-  1. [Data Collection](#data-collection)
-  2. [Data Visualization - Association Plot Analysis of MET score and coffee consumption](#data-visualization---association-plot-analysis-of-met-score-and-coffee-consumption)
-  3. [Assessment of Assumptions](#assessment-of-assumptions)
-  4. [Analysis of Variance (ANOVA)](#analysis-of-variance-anova)
-  5. [Post Hoc](#post-hoc)
-4. [Conclusions](#conclusions)
-
-
+## Table of Contents
+- [Uses](#uses)
+- [Objective](#objective)
+- [Methods](#methods)
+  - [Data Collection](#data-collection)
+  - [Data Visualization - Association Plot Analysis of MET score and coffee consumption](#data-visualization---association-plot-analysis-of-met-score-and-coffee-consumption)
+  - [Assessment of Assumptions](#assessment-of-assumptions)
+  - [Analysis of Variance (ANOVA)](#analysis-of-variance-anova)
+  - [Post Hoc](#post-hoc)
+- [Conclusions](#conclusions)
+  
 ## Uses
 - ANOVA
 
