@@ -23,6 +23,7 @@
 - The objective of the analysis is to explore the relationship between lung cancer mortality (dependent variable) and smoking habits (independent variable) among men in 25 occupational groups in England.
 
 # Dataset 1
+- Correlation-1.xlsx
 - From the Data and Story Library at Carnegie Melon University. The original source was: Occupational Mortality: The Registrar General's Decennial Supplement for England and Wales, 1970-1972, Her Majesty's Stationery Office, London, 1978.
 - The data summarize a study of men in 25 occupational groups in England. Two indices are
 presented for each occupational group.
